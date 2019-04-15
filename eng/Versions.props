@@ -3,5 +3,11 @@
   <PropertyGroup>
     <VersionPrefix>1.0.0</VersionPrefix>
     <PreReleaseVersionLabel>prerelease</PreReleaseVersionLabel>
+    
+    <!-- Opt-out repo features -->
+    <UsingToolXliff>false</UsingToolXliff>
+    <UsingToolNuGetRepack>true</UsingToolNuGetRepack>
+    <UsingToolSymbolUploader>true</UsingToolSymbolUploader>
+    <UsingToolNetFrameworkReferenceAssemblies>true</UsingToolNetFrameworkReferenceAssemblies>
   </PropertyGroup>
 </Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <PackageDescription>Build Task to update template file</PackageDescription>
+    <PackageTags>Build Task template</PackageTags>
+    <DevelopmentDependency>true</DevelopmentDependency>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Tasks.Core" Version="15.3.409" />
+     <Reference Include="WindowsBase" />
+  </ItemGroup>
+  
+  <Import Project="$(RepoRoot)eng\BuildTask.targets" />
+</Project>
